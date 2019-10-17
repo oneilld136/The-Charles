@@ -1,0 +1,31 @@
+<html>
+<head>
+  <style>
+  #notice {
+    background: #3399ff;
+  }
+
+  h1 {
+    color:#e6b800;
+  }
+
+  </style>
+<title>The Charles</title>
+  <script>
+    window.onload = function() {
+      document.getElementById('button').onclick = function() {
+        document.getElementById('notice').style.display = 'none'
+      };
+    };
+	</script>
+</head>
+
+<body>
+	<div id="notice">
+					<h1> 🍪 The Charles Cookies Notice 🍪</h1>
+					 <h3>This site requires anonymous cookies and various 3rd-party services to function properly. To continue to The Charles, click "Accept" to consent to our Cookie policies.
+           Thank you!</h3>
+					 <button id="button">Accept</button>
+			</div>
+</body>
+</html>
